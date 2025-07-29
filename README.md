@@ -55,12 +55,14 @@ The UI is styled like a **Telegram chat**, complete with avatars, chat bubbles, 
 
 ## 📁 Folder Structure
 
+```
 customer-support-chatbot/
 ├── intents/                     
 ├── app.py                     
 ├── README.md                   
 ├── agent.json                  
 └── package.json 
+```
 
 ---
 
