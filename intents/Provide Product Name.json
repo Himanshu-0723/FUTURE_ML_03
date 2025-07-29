@@ -1,0 +1,57 @@
+{
+  "id": "651e7187-be07-4e52-9229-a2597a65a0db",
+  "name": "Provide Product Name",
+  "auto": true,
+  "contexts": [
+    "awaiting_product_name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1670a6a2-0f68-4232-a35b-2343153fe595",
+          "name": "product_name",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$product_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide the product name or SKU."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Let me check the availability for \u0027$product_name\u0027..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

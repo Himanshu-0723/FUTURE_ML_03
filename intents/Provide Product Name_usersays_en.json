@@ -1,0 +1,77 @@
+[
+  {
+    "id": "e2eb0f04-2f49-468b-8041-0e3dcb646edf",
+    "data": [
+      {
+        "text": "iPhone 14",
+        "meta": "@sys.any",
+        "alias": "product_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df8acbbc-9e46-4fff-a090-94746c4f1b75",
+    "data": [
+      {
+        "text": "Product name is MacBook Pro",
+        "meta": "@sys.any",
+        "alias": "product_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "672c9e7c-6d51-4a4d-8da1-35cd37719a15",
+    "data": [
+      {
+        "text": "SKU12345",
+        "meta": "@sys.any",
+        "alias": "product_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e62e75a0-ae9a-48cf-9e5d-b4590101c632",
+    "data": [
+      {
+        "text": "Samsung Galaxy S22",
+        "meta": "@sys.any",
+        "alias": "product_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f3a91ee-69ee-49db-aaea-598dd71b0282",
+    "data": [
+      {
+        "text": "Order for AirPods",
+        "meta": "@sys.any",
+        "alias": "product_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

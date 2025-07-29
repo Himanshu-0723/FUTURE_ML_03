@@ -1,0 +1,37 @@
+{
+  "id": "caad44c8-7b14-42fc-a71b-963658b595fd",
+  "name": "Ask About EMI",
+  "auto": true,
+  "contexts": [
+    "payment_info_given"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "EMI is available on select cards for orders above $1000. Would you like to proceed with EMI?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

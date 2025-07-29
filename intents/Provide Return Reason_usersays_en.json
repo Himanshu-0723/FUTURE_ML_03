@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ceacbcff-09c6-4592-b808-7c57a61f2314",
+    "data": [
+      {
+        "text": "Received wrong item",
+        "meta": "@sys.any",
+        "alias": "return_reason",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9c04487-a863-49fe-9409-51825f402778",
+    "data": [
+      {
+        "text": "Product is defective",
+        "meta": "@sys.any",
+        "alias": "return_reason",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "faab7388-fd13-4559-87be-c6d7429abe49",
+    "data": [
+      {
+        "text": "Changed my mind",
+        "meta": "@sys.any",
+        "alias": "return_reason",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bee06614-9970-4570-849a-65b3f48fd4d0",
+    "data": [
+      {
+        "text": "Item arrived late",
+        "meta": "@sys.any",
+        "alias": "return_reason",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "18939b2b-8959-4303-ba67-2b8dd65b5c7c",
+    "data": [
+      {
+        "text": "Found a better price elsewhere",
+        "meta": "@sys.any",
+        "alias": "return_reason",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

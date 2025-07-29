@@ -1,0 +1,76 @@
+{
+  "id": "cbab6ce8-d4a3-44cb-81ce-c55f1dd633ff",
+  "name": "Provide Return Reason",
+  "auto": true,
+  "contexts": [
+    "awaiting_return_reason"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e6a56b65-3679-4d36-bb4c-87fa0a1f9ef1",
+          "name": "return_reason",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$return_reason",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide the reason for your return."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c3b045ca-e409-46ed-b232-dd2c663f4ffc",
+          "name": "order_id",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$order_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please re-enter the order id to confirm"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your return for order #$order_id due to \u0027$return_reason\u0027 has been initiated. You’ll receive an email with next steps."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

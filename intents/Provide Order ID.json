@@ -1,0 +1,57 @@
+{
+  "id": "ccdbade7-34c4-48df-b018-2ecc617b5fe9",
+  "name": "Provide Order ID",
+  "auto": true,
+  "contexts": [
+    "awaiting_order_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1bd97c47-8e9d-4e83-886c-9f7f8b330dc4",
+          "name": "order_id",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$order_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your order ID."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you! I’m checking the status for order #$order_id..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

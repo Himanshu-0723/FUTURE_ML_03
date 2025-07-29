@@ -1,0 +1,37 @@
+{
+  "id": "45b18d1a-a1c6-4462-b21b-a32a48703570",
+  "name": "Ask About Express Shipping",
+  "auto": true,
+  "contexts": [
+    "shipping_info_given"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Express shipping delivers in 1-2 business days for an extra fee. Would you like to proceed with express shipping?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

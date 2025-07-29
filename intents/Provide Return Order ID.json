@@ -1,0 +1,62 @@
+{
+  "id": "71344f56-3ce9-4184-8a76-30cbf661a6b0",
+  "name": "Provide Return Order ID",
+  "auto": true,
+  "contexts": [
+    "awaiting_return_order_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_return_reason",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6b67b17f-a61d-4786-8028-6f7ecb06a6a5",
+          "name": "order_id",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$order_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your order ID."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks! What is the reason for your return?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
